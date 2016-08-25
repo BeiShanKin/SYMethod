@@ -16,6 +16,12 @@
 		28C3319A1D6F3481003A053F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331991D6F3481003A053F /* BaseNavigationController.m */; };
 		28C3319D1D6F366C003A053F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3319C1D6F366C003A053F /* BaseViewController.m */; };
 		28C331A21D6F388A003A053F /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331A11D6F388A003A053F /* LabelViewController.m */; };
+		28C331B21D6F39D3003A053F /* CALayer+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331A71D6F39D3003A053F /* CALayer+SYMethod.m */; };
+		28C331B31D6F39D3003A053F /* NSData+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331A91D6F39D3003A053F /* NSData+SYMethod.m */; };
+		28C331B41D6F39D3003A053F /* NSString+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331AB1D6F39D3003A053F /* NSString+SYMethod.m */; };
+		28C331B51D6F39D3003A053F /* UIImage+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331AD1D6F39D3003A053F /* UIImage+SYMethod.m */; };
+		28C331B61D6F39D3003A053F /* UILabel+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331AF1D6F39D3003A053F /* UILabel+SYMethod.m */; };
+		28C331B71D6F39D3003A053F /* UITabBar+SYMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331B11D6F39D3003A053F /* UITabBar+SYMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,20 @@
 		28C3319C1D6F366C003A053F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		28C331A01D6F388A003A053F /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
 		28C331A11D6F388A003A053F /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
+		28C331A61D6F39D3003A053F /* CALayer+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SYMethod.h"; sourceTree = "<group>"; };
+		28C331A71D6F39D3003A053F /* CALayer+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SYMethod.m"; sourceTree = "<group>"; };
+		28C331A81D6F39D3003A053F /* NSData+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SYMethod.h"; sourceTree = "<group>"; };
+		28C331A91D6F39D3003A053F /* NSData+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SYMethod.m"; sourceTree = "<group>"; };
+		28C331AA1D6F39D3003A053F /* NSString+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SYMethod.h"; sourceTree = "<group>"; };
+		28C331AB1D6F39D3003A053F /* NSString+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SYMethod.m"; sourceTree = "<group>"; };
+		28C331AC1D6F39D3003A053F /* UIImage+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYMethod.h"; sourceTree = "<group>"; };
+		28C331AD1D6F39D3003A053F /* UIImage+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYMethod.m"; sourceTree = "<group>"; };
+		28C331AE1D6F39D3003A053F /* UILabel+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SYMethod.h"; sourceTree = "<group>"; };
+		28C331AF1D6F39D3003A053F /* UILabel+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SYMethod.m"; sourceTree = "<group>"; };
+		28C331B01D6F39D3003A053F /* UITabBar+SYMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SYMethod.h"; sourceTree = "<group>"; };
+		28C331B11D6F39D3003A053F /* UITabBar+SYMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SYMethod.m"; sourceTree = "<group>"; };
+		28C331BA1D6F3B3F003A053F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		28C331BB1D6F3CB9003A053F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +111,8 @@
 				28C3318B1D6F327F003A053F /* Info.plist */,
 				28C3317D1D6F327F003A053F /* AppDelegate.h */,
 				28C3317E1D6F327F003A053F /* AppDelegate.m */,
+				28C331BA1D6F3B3F003A053F /* PrefixHeader.pch */,
+				28C331BB1D6F3CB9003A053F /* Config.h */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -108,6 +130,7 @@
 		28C331931D6F3351003A053F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				28C331A51D6F39D3003A053F /* SYMethod */,
 				28C331A41D6F390A003A053F /* Other */,
 				28C331A31D6F38F6003A053F /* Controller */,
 			);
@@ -148,6 +171,25 @@
 			children = (
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		28C331A51D6F39D3003A053F /* SYMethod */ = {
+			isa = PBXGroup;
+			children = (
+				28C331A61D6F39D3003A053F /* CALayer+SYMethod.h */,
+				28C331A71D6F39D3003A053F /* CALayer+SYMethod.m */,
+				28C331A81D6F39D3003A053F /* NSData+SYMethod.h */,
+				28C331A91D6F39D3003A053F /* NSData+SYMethod.m */,
+				28C331AA1D6F39D3003A053F /* NSString+SYMethod.h */,
+				28C331AB1D6F39D3003A053F /* NSString+SYMethod.m */,
+				28C331AC1D6F39D3003A053F /* UIImage+SYMethod.h */,
+				28C331AD1D6F39D3003A053F /* UIImage+SYMethod.m */,
+				28C331AE1D6F39D3003A053F /* UILabel+SYMethod.h */,
+				28C331AF1D6F39D3003A053F /* UILabel+SYMethod.m */,
+				28C331B01D6F39D3003A053F /* UITabBar+SYMethod.h */,
+				28C331B11D6F39D3003A053F /* UITabBar+SYMethod.m */,
+			);
+			path = SYMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,12 +262,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C331B51D6F39D3003A053F /* UIImage+SYMethod.m in Sources */,
+				28C331B41D6F39D3003A053F /* NSString+SYMethod.m in Sources */,
+				28C331B21D6F39D3003A053F /* CALayer+SYMethod.m in Sources */,
 				28C3319A1D6F3481003A053F /* BaseNavigationController.m in Sources */,
 				28C3319D1D6F366C003A053F /* BaseViewController.m in Sources */,
 				28C3317F1D6F327F003A053F /* AppDelegate.m in Sources */,
 				28C331971D6F345E003A053F /* BaseTabBarController.m in Sources */,
+				28C331B61D6F39D3003A053F /* UILabel+SYMethod.m in Sources */,
+				28C331B71D6F39D3003A053F /* UITabBar+SYMethod.m in Sources */,
 				28C3317C1D6F327F003A053F /* main.m in Sources */,
 				28C331A21D6F388A003A053F /* LabelViewController.m in Sources */,
+				28C331B31D6F39D3003A053F /* NSData+SYMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/SYMethod/PrefixHeader.pch";
 				INFOPLIST_FILE = SYMethod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYMethod;
@@ -348,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/SYMethod/PrefixHeader.pch";
 				INFOPLIST_FILE = SYMethod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bravesoft.SYMethod;
