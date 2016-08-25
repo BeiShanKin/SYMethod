@@ -1,27 +1,33 @@
 //
-//  ViewController.m
+//  LabelViewController.m
 //  SYMethod
 //
 //  Created by lz on 16/8/25.
 //  Copyright © 2016年 SY. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LabelViewController.h"
 
-@interface ViewController ()
+@interface LabelViewController ()
 
 @end
 
-@implementation ViewController
-
+@implementation LabelViewController
+#pragma mark - 生命周期
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self setupView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - 初始化
+
+- (void)setupView {
+    self.title = @"Category";
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTabBarController.h
 //  SYMethod
 //
 //  Created by lz on 16/8/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseTabBarController : UITabBarController
 
 @end
-

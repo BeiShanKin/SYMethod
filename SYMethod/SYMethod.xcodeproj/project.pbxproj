@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		28C3317C1D6F327F003A053F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3317B1D6F327F003A053F /* main.m */; };
 		28C3317F1D6F327F003A053F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3317E1D6F327F003A053F /* AppDelegate.m */; };
-		28C331821D6F327F003A053F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331811D6F327F003A053F /* ViewController.m */; };
 		28C331851D6F327F003A053F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C331831D6F327F003A053F /* Main.storyboard */; };
 		28C331871D6F327F003A053F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C331861D6F327F003A053F /* Assets.xcassets */; };
 		28C3318A1D6F327F003A053F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C331881D6F327F003A053F /* LaunchScreen.storyboard */; };
+		28C331971D6F345E003A053F /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331961D6F345E003A053F /* BaseTabBarController.m */; };
+		28C3319A1D6F3481003A053F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331991D6F3481003A053F /* BaseNavigationController.m */; };
+		28C3319D1D6F366C003A053F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C3319C1D6F366C003A053F /* BaseViewController.m */; };
+		28C331A21D6F388A003A053F /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C331A11D6F388A003A053F /* LabelViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		28C3317B1D6F327F003A053F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C3317D1D6F327F003A053F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28C3317E1D6F327F003A053F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28C331801D6F327F003A053F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28C331811D6F327F003A053F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		28C331841D6F327F003A053F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28C331861D6F327F003A053F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C331891D6F327F003A053F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28C3318B1D6F327F003A053F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C331951D6F345E003A053F /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		28C331961D6F345E003A053F /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		28C331981D6F3481003A053F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		28C331991D6F3481003A053F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		28C3319B1D6F366C003A053F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		28C3319C1D6F366C003A053F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		28C331A01D6F388A003A053F /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelViewController.h; sourceTree = "<group>"; };
+		28C331A11D6F388A003A053F /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +67,11 @@
 		28C331791D6F327F003A053F /* SYMethod */ = {
 			isa = PBXGroup;
 			children = (
-				28C3317D1D6F327F003A053F /* AppDelegate.h */,
-				28C3317E1D6F327F003A053F /* AppDelegate.m */,
-				28C331801D6F327F003A053F /* ViewController.h */,
-				28C331811D6F327F003A053F /* ViewController.m */,
-				28C331831D6F327F003A053F /* Main.storyboard */,
-				28C331861D6F327F003A053F /* Assets.xcassets */,
-				28C331881D6F327F003A053F /* LaunchScreen.storyboard */,
-				28C3318B1D6F327F003A053F /* Info.plist */,
+				28C331911D6F3313003A053F /* Other */,
+				28C331921D6F332E003A053F /* Resource */,
+				28C331941D6F3425003A053F /* BaseController */,
+				28C331931D6F3351003A053F /* Category */,
+				28C3319F1D6F36AC003A053F /* CustomView */,
 				28C3317A1D6F327F003A053F /* Supporting Files */,
 			);
 			path = SYMethod;
@@ -77,6 +83,71 @@
 				28C3317B1D6F327F003A053F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28C331911D6F3313003A053F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				28C3318B1D6F327F003A053F /* Info.plist */,
+				28C3317D1D6F327F003A053F /* AppDelegate.h */,
+				28C3317E1D6F327F003A053F /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		28C331921D6F332E003A053F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				28C331861D6F327F003A053F /* Assets.xcassets */,
+				28C331831D6F327F003A053F /* Main.storyboard */,
+				28C331881D6F327F003A053F /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		28C331931D6F3351003A053F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				28C331A41D6F390A003A053F /* Other */,
+				28C331A31D6F38F6003A053F /* Controller */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		28C331941D6F3425003A053F /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				28C331951D6F345E003A053F /* BaseTabBarController.h */,
+				28C331961D6F345E003A053F /* BaseTabBarController.m */,
+				28C331981D6F3481003A053F /* BaseNavigationController.h */,
+				28C331991D6F3481003A053F /* BaseNavigationController.m */,
+				28C3319B1D6F366C003A053F /* BaseViewController.h */,
+				28C3319C1D6F366C003A053F /* BaseViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		28C3319F1D6F36AC003A053F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		28C331A31D6F38F6003A053F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28C331A01D6F388A003A053F /* LabelViewController.h */,
+				28C331A11D6F388A003A053F /* LabelViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		28C331A41D6F390A003A053F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +220,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C331821D6F327F003A053F /* ViewController.m in Sources */,
+				28C3319A1D6F3481003A053F /* BaseNavigationController.m in Sources */,
+				28C3319D1D6F366C003A053F /* BaseViewController.m in Sources */,
 				28C3317F1D6F327F003A053F /* AppDelegate.m in Sources */,
+				28C331971D6F345E003A053F /* BaseTabBarController.m in Sources */,
 				28C3317C1D6F327F003A053F /* main.m in Sources */,
+				28C331A21D6F388A003A053F /* LabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +374,7 @@
 				28C331901D6F327F003A053F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
